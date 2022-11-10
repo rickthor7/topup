@@ -1,0 +1,172 @@
+body {
+    background-color: #edf2f7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+.container-mob {
+    margin: 0 auto;
+    max-width: 480px;
+}
+.single-profile {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    top: -20%;
+    position: absolute;
+}
+.bg-white {
+    background-color: #f7fafc !important;
+}
+.bg-milk {
+    background-color: #ffffff !important;
+}
+.step-numb {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    font-size: 1.875rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 9999px;
+    color: #fff;
+    background-color: #000;
+}
+.just-pay-p3vkp9 {
+    font-size: 20px;
+}
+
+.just-pay-14fym7t {
+    color: #718096;
+    font-size: 0.75em;
+}
+.just-pay-n5qlg6 {
+    display: flex;
+    width: 100;
+    background-color: #181818;
+    color: #ffffff;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-color: inherit;
+    align-items: center;
+}
+.just-pay-wwm21b {
+    flex: 1 1 0%;
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 0.0025em;
+    margin: 0;
+}
+.border-bot {
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    border-color: #e2e8f0;
+    box-shadow: 0 0 8px #ddd;
+}
+
+.price-box {
+    border-color: #e2e8f0;
+    box-shadow: 0 0 8px #ddd;
+    overflow: hidden;
+    border-radius: 0.75rem;
+}
+.just-pay-z4a72a {
+    border-style: solid;
+    border-color: #EDF2F7;
+}
+.just-pay-19655n4 {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 1px;
+    border-block: thin;
+    max-width: 480px;
+    margin: auto;
+    z-index: 1100;
+}
+.just-pay-1fbseht {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: space-around;
+    -ms-flex-pack: space-around;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    position: -webkit-sticky;
+    position: sticky;
+    justify-items: center;
+    background: white;
+    width: 100%;
+    height:4rem ;
+    z-index: 2;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-top: solid 1px;
+    border-color: #E2E8F0;
+}
+.just-pay-1hy3qdb {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    width: 100%;
+    line-height: 1.2;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    height: 2.5rem;
+    min-width: 2.5rem;
+    font-size: 1rem;
+    -webkit-padding-start: 1rem;
+    padding-inline-start:1rem;
+    -webkit-padding-end: 1rem;
+    padding-inline-end: 1rem;
+    background:#181818;
+    color: #ffffff;
+    -webkit-margin-start: 1rem;
+    margin-inline-start: 1rem;
+    -webkit-margin-end: 1rem;
+    margin-inline-end: 1rem;
+}
