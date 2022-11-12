@@ -12,7 +12,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="./style.css" />
 
-        <title>Hello, world!</title>
+        <title>TOPUPPEDIA</title>
     </head>
     <body>
         <main>
@@ -46,13 +46,13 @@
                                     <div class="my-2 w-100 d-flex justify-content-between align-items-center">
                                         <div class="col-5 p-0">
                                             <label for="inputUserId" class="visually-hidden">User ID</label>
-                                            <input name="userid" type="text" class="form-control" id="inputUserId" placeholder="Masukan User ID" required/>
+                                            <input name="userid" type="text" class="form-control" id="inputUserId" placeholder="Masukan User ID" autocomplete="off" required />
                                         </div>
                                         <div class="col-5 p-0">
                                             <label for="inputZoneId" class="visually-hidden">Zone ID</label>
-                                            <input name="zoneid" type="text" class="form-control" id="inputZoneId" placeholder="Masukan Zone ID" required/>
+                                            <input name="zoneid" type="text" class="form-control" id="inputZoneId" placeholder="Masukan Zone ID" autocomplete="off" required />
                                         </div>
-                                        <div class="col-auto p-0">
+                                        <div class="col-auto p-0" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" focusable="false" class="chakra-icon just-pay-14yg3v1" height="1.75em" width="1.75em" xmlns="http://www.w3.org/2000/svg">
                                                 <g>
                                                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -71,9 +71,7 @@
                             <div class="col">
                                 <div class="d-flex flex-column align-items-center py-5">
                                     <h2 class="chakra-heading just-pay-11iu74w w-100 d-flex align-items-center"><span class="step-numb">2</span><span class="just-pay-p3vkp9">Pilih Nominal Top Up</span></h2>
-                                    <div class="row w-100 justify-content-between mt-2" id="lihar">
-                                        
-                                    </div>
+                                    <div class="row w-100 justify-content-between mt-2" id="lihar"></div>
                                 </div>
                             </div>
                         </div>
@@ -87,12 +85,13 @@
                                         <div class="just-pay-n5qlg6">
                                             <p class="chakra-text just-pay-wwm21b">E - Wallet</p>
                                         </div>
-                                        <div class="col p-1 bg-milk border-bot">
-                                            <input type="radio" class="btn-check" name="pembayaran" id="dana" autocomplete="off" value="dana" required/>
-                                            <label class="btn btn-outline-primary w-100" for="dana" style="border: none">
+                                        <div class="col bg-milk border-bot">
+                                            <input type="radio" class="btn-check" name="pembayaran" id="dana" autocomplete="off" value="dana" required />
+                                            <label class="btn btn-outline-primary w-100" for="dana" style="overflow: hidden">
+                                                <div class="position-relative"><span line-height="52px" class="just-pay-13e7uab"></span></div>
                                                 <div class="d-flex flex-row justify-content-between align-items-center">
                                                     <img style="width: 100px; height: 100%" src="./img/dana.png" />
-                                                    <p class="m-0">Rp&nbsp;3.627,-</p>
+                                                    <p class="m-0">Verif Manual</p>
                                                 </div>
                                             </label>
                                         </div>
@@ -109,7 +108,7 @@
                                     <div class="row my-2 w-100">
                                         <div class="col-12 p-0">
                                             <label for="inputNoWA" class="visually-hidden">Normor Whatsapp</label>
-                                            <input name="nomorwa" type="text" class="form-control" id="inputNoWA" placeholder="Normor Whatsapp" required/>
+                                            <input name="nomorwa" type="number" class="form-control" id="inputNoWA" placeholder="Normor Whatsapp" autocomplete="off" required />
                                         </div>
                                     </div>
                                     <p style="color: #718096; font-size: 14px">Bukti pembayaran atas pembelian anda akan kami kirimkan ke WhatsApp anda.</p>
@@ -125,7 +124,21 @@
             </section>
         </main>
 
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content" style="background-color: rgba(0, 0, 0, 0);border: none;">
+                    <img src="./img/ml-helper.png" />
+                    <div class="d-flex justify-content-center align-items-center" style="margin: 40px auto;width: 40px;height: 40px; background-color: #fff;border-radius: 80px;" >
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+
+             
+            </div>
+        </div>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <script type="module" src="./main.js" ></script>
+        <script type="module" src="./main.js"></script>
     </body>
 </html>

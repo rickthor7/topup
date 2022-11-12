@@ -15,13 +15,14 @@ async function mlHarga() {
         const hargas = await response.json();
         const listHar = document.getElementById("lihar");
         hargas.map((a) => {
-            return listHar.innerHTML += (`<div class="col-6">
+            return listHar.innerHTML += (`<div class="col-6 my-2">
             <input type="radio" class="btn-check" name="nominaltopup" id="success-outlined${a.key}" autocomplete="off"  value="${a.key+ ". " + a.diamond + " / " +a.harga}" required/>
             <label class="btn btn-outline-primary price-box" for="success-outlined${a.key}">
-                <div>
-                    <span>${a.diamond}</span>
+                <div class="position-relative">
+                <span line-height="52px" class="just-pay-13e7uab"></span>
+                    <span class="text-box"><strong>${a.diamond}</strong></span>
                     <br />
-                    <span>${a.harga}</span>
+                    <span  class="harg-box">${a.harga}</span>
                 </div>
             </label>
         </div>`);
