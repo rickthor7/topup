@@ -15,7 +15,7 @@ async function mlHarga() {
         const hargas = await response.json();
         const listHar = document.getElementById("lihar");
         hargas.map((a) => {
-            return listHar.innerHTML += (`<div class="col-6 my-2">
+            return listHar.innerHTML += (`<div class="col-6 my-2" >
             <input type="radio" class="btn-check" name="nominaltopup" id="success-outlined${a.key}" autocomplete="off"  value="${a.key+ ". " + a.diamond + " / " +a.harga}" required/>
             <label class="btn btn-outline-primary price-box" for="success-outlined${a.key}">
                 <div class="position-relative">
