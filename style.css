@@ -8,6 +8,14 @@ img {
     height: 100%;
     object-fit: cover;
 }
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
 h1,
 h2,
 h3,
@@ -259,4 +267,15 @@ h4 {
         font-size: 10px;
         color: #718096;
     }
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
