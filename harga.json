@@ -1,20 +1,178 @@
-[{
-    "diamond": "14 Diamonds (13 + 1 Bonus)",
-    "harga": "Rp 3.627,-",
-    "key": "1"
-},
-{
-    "diamond": "14 Diamonds (13 + 1 Bonus)",
-    "harga": "Rp 3.627,-",
-    "key": "2"
-},
-{
-    "diamond": "14 Diamonds (13 + 1 Bonus)",
-    "harga": "Rp 3.627,-",
-    "key": "3"
-},
-{
-    "diamond": "14 Diamonds (13 + 1 Bonus)",
-    "harga": "Rp 3.627,-",
-    "key":"4"
-}]
+[
+    {		
+    "diamond":	"14 Diamonds (13 + 1 Bonus)",	
+    "harga":	"Rp 3.588,-",	
+    "key":		"1"
+    },		
+    {		
+    "diamond":	"42 Diamonds (38 + 4 Bonus)",	
+    "harga":	"Rp 10.988,-",	
+    "key":		"2"
+    },		
+    {		
+    "diamond":	"70 Diamonds (64 + 6 Bonus)",	
+    "harga":	"Rp 17.888,-",	
+    "key":		"3"
+    },		
+    {		
+    "diamond":	"86 Diamonds (78 + 8 Bonus)",	
+    "harga":	"Rp 20.988,-",	
+    "key":		"4"
+    },		
+    {		
+    "diamond":	"112 Diamonds (102 + 10 Bonus)",	
+    "harga":	"Rp 28.188,-",	
+    "key":		"5"
+    },		
+    {		
+    "diamond":	"140 Diamonds (127 + 13 Bonus)",	
+    "harga":	"Rp 35.188,-",	
+    "key":		"6"
+    },		
+    {		
+    "diamond":	"172 Diamonds (156 + 16 Bonus)",	
+    "harga":	"Rp 41.888,-",	
+    "key":		"7"
+    },		
+    {		
+    "diamond":	"257 Diamonds (234 + 23 Bonus)",	
+    "harga":	"Rp 62.888,-",	
+    "key":		"8"
+    },		
+    {		
+    "diamond":	"284 Diamonds (254 + 30 Bonus)",	
+    "harga":	"Rp 70.888,-",	
+    "key":		"9"
+    },		
+    {		
+    "diamond":	"344 Diamonds (312 + 32 Bonus)",	
+    "harga":	"Rp 83.357,-",	
+    "key":		"10"
+    },		
+    {		
+    "diamond":	"355 Diamonds (317 + 38 Bonus)",	
+    "harga":	"Rp 87.888,-",	
+    "key":		"11"
+    },		
+    {		
+    "diamond":	"429 Diamonds (383 + 46 Bonus)",	
+    "harga":	"Rp 104.252,-",	
+    "key":		"12"
+    },		
+    {		
+    "diamond":	"514 Diamonds (468 + 32 Bonus)",	
+    "harga":	"Rp 125.587,-",	
+    "key":		"13"
+    },		
+    {		
+    "diamond":	"600 Diamonds (546 + 54 Bonus)",	
+    "harga":	"Rp 146.544,-",	
+    "key":		"14"
+    },		
+    {		
+    "diamond":	"706 Diamonds (625 + 81 Bonus)",	
+    "harga":	"Rp 168.588,-",	
+    "key":		"15"
+    },		
+    {		
+    "diamond":	"716 Diamonds (633 + 83 Bonus)",	
+    "harga":	"Rp 175.888,-",	
+    "key":		"16"
+    },		
+    {		
+    "diamond":	"792 Diamonds (703 + 89 Bonus)",	
+    "harga":	"Rp 189.576,-",	
+    "key":		"17"
+    },		
+    {		
+    "diamond":	"878 Diamonds (781 + 97 Bonus)",	
+    "harga":	"Rp 209.950,-",	
+    "key":		"18"
+    },		
+    {		
+    "diamond":	"963 Diamonds (859 + 104 Bonus)",	
+    "harga":	"Rp 230.897,-",	
+    "key":		"19"
+    },		
+    {		
+    "diamond":	"1220 Diamonds (1093+ 127 Bonus)",	
+    "harga":	"Rp 293.628,-",	
+    "key":		"20"
+    },		
+    {		
+    "diamond":	"1412 Diamonds (1250 + 162 Bonus)",	
+    "harga":	"Rp 337.176,-",	
+    "key":		"21"
+    },		
+    {		
+    "diamond":	"1446 Diamonds (1252 + 194 Bonus)",	
+    "harga":	"Rp 350.888,-",	
+    "key":		"22"
+    },		
+    {		
+    "diamond":	"2195 Diamonds (1860 + 335 Bonus)",	
+    "harga":	"Rp 505.888,-",	
+    "key":		"23"
+    },		
+    {		
+    "diamond":	"2901 Diamonds (2485 + 416 Bonus)",	
+    "harga":	"Rp 673.464,-",	
+    "key":		"24"
+    },		
+    {		
+    "diamond":	"2976 Diamonds (2501 + 475 Bonus)",	
+    "harga":	"Rp 700.888,-",	
+    "key":		"25"
+    },		
+    {		
+    "diamond":	"3688 Diamonds (3099 + 589 Bonus)",	
+    "harga":	"Rp 839.888,-",	
+    "key":		"26"
+    },		
+    {		
+    "diamond":	"4394 Diamonds (3724 + 670 Bonus)",	
+    "harga":	"Rp 1.007.972,-",	
+    "key":		"27"
+    },		
+    {		
+    "diamond":	"5532 Diamonds (4649 + 883 Bonus)",	
+    "harga":	"Rp 1.264.888,-",	
+    "key":		"28"
+    },		
+    {		
+    "diamond":	"6238 Diamonds (5274 + 964 Bonus)",	
+    "harga":	"Rp 1.433.476,-",	
+    "key":		"29"
+    },		
+    {		
+    "diamond":	"7502 Diamonds (6252 + 1250 Bonus)",	
+    "harga":	"Rp 1.751.888,-",	
+    "key":		"30"
+    },		
+    {		
+    "diamond":	"7727 Diamonds (6509 + 1218 Bonus)",	
+    "harga":	"Rp 1.770.776,-",	
+    "key":		"31"
+    },		
+    {		
+    "diamond":	"9288 Diamonds (7740 + 1548 Bonus)",	
+    "harga":	"Rp 2.103.888,-",	
+    "key":		"32"
+    },		
+    {		
+    "diamond":	"12976 Diamonds (10839 + 2137 Bonus)",	
+    "harga":	"Rp 2.943.776,-",	
+    "key":		"33"
+    },		
+    {		
+    "diamond":	"14820 Diamonds (12389 + 2431 Bonus)",	
+    "harga":	"Rp 3.368.776,-",	
+    "key":		"34"
+    },		
+    {		
+    "diamond":	"Twilight Pass",	
+    "harga":	"Rp 138.888,-",	
+    "key":		"35"
+    }
+]
+

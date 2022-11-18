@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             const listHar = document.getElementById("lihar");
             hargas.map((a) => {
                 return (listHar.innerHTML += `<div class="col-6 my-2" >
-                <input type="radio" class="btn-check" name="nominaltopup" id="success-outlined${a.key}" autocomplete="off"  value="${a.key + ". " + a.diamond + " : " + a.harga}" required/>
+                <input type="radio" class="btn-check tophar" name="nominaltopup" id="success-outlined${a.key}" autocomplete="off"  value="${a.key + ". " + a.diamond + " : " + a.harga}" required/>
                 <label class="btn btn-outline-primary price-box" for="success-outlined${a.key}">
                     <div class="position-relative">
                     <span line-height="52px" class="just-pay-13e7uab"></span>
@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         if (!!denom) {
             denom.innerHTML += localStorage.getItem("diamn");
             document.getElementById("hargasss").innerHTML += localStorage.getItem("hargss");
+            document.getElementById("hargco").innerHTML += localStorage.getItem("hargss");
             document.getElementById("usrco").innerHTML += localStorage.getItem("userid");
             document.getElementById("zoneco").innerHTML += localStorage.getItem("zoneid");
             document.getElementById("nowaco").innerHTML += localStorage.getItem("nomorwa");
@@ -51,6 +52,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
     coreval();
 
 });
+// const scrollbot = [...document.getElementsByClassName("tophar")];
+// const anchor1  = document.querySelector("dana1");
+// for (const box of scrollbot) {
+//     box.addEventListener("click", (e) => {
+//     e.preventDefault();
+//     anchor1.scrollIntoView();
+    
+// })}
+
+
 const fo = document.forms["fotop"];
 if (fo) {
     fo.addEventListener("submit", (e) => {

@@ -12,11 +12,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="./style.css" />
 
-        <title>TOPUPPEDIA</title>
+        <title>TOPUPGAMEPEDIA</title>
     </head>
     <body id="cheo">
         <main>
-            <section class="container-mob bg-white" style="position: relative; height: 100vh">
+            <section class="container-mob bg-white pb-5" style="position: relative; min-height: 100vh">
                 <div class="checkout-banner">
                     <img src="./img/MOBILE LEGEND BANNER-a2fb.png" loading="lazy" />
                 </div>
@@ -24,7 +24,7 @@
                     <div class="row px-3">
                         <div class="col">
                             <h2 style="font-size: 18px">
-                                <strong>Transaksi (<span id="nowaco"></span></strong>)
+                                <strong>Transaksi (<span id="nowaco" style="color: #108ee9"></span></strong>)
                             </h2>
                         </div>
                     </div>
@@ -44,38 +44,45 @@
                     <div class="row px-3">
                         <div class="col-8">
                             <h2 style="font-size: 14px"><strong>Denom</strong></h2>
-                            <span><p id="denomco" style="font-size: 14px; line-height: 1.5rem"></p></span>
+                            <span><p id="denomco" style="font-size: 14px; line-height: 1.5rem;color: #108ee9"></p></span>
                         </div>
                         <div class="col-4">
                             <h2 style="font-size: 14px"><strong>Harga</strong></h2>
-                            <span><p id="hargasss" style="font-size: 14px; line-height: 1.5rem"></p></span>
+                            <span><p id="hargasss" style="font-size: 14px; line-height: 1.5rem;color: #108ee9"></p></span>
                         </div>
                     </div>
                     <div class="mx-3" style="border-top: solid 1px; border-color: #e2e8f0"></div>
                     <div class="row px-3">
                         <div class="col-6 pt-2">
                             <p class="mb-1" style="font-size: 14px">USER ID</p>
-                            <p id="usrco" class="py-1 ps-2" style="font-size: 12px; border: solid 1px #ccc; border-radius: 5px; line-height: 1.5rem"></p>
+                            <p id="usrco" class="py-1 ps-2" style="font-size: 12px; border: solid 1px #ccc; border-radius: 5px; line-height: 1.5rem;color: #108ee9"></p>
                         </div>
                         <div class="col-6 pt-2">
                             <p class="mb-1" style="font-size: 14px">ZONE ID</p>
-                            <p id="zoneco" class="py-1 ps-2" style="font-size: 12px; border: solid 1px #ccc; border-radius: 5px; line-height: 1.5rem"></p>
+                            <p id="zoneco" class="py-1 ps-2" style="font-size: 12px; border: solid 1px #ccc; border-radius: 5px; line-height: 1.5rem;color: #108ee9"></p>
                         </div>
                     </div>
                     <div class="mx-3" style="border-top: solid 1px; border-color: #e2e8f0"></div>
                     <div class="d-flex pt-3 flex-column align-items-center justify-content-center">
-                        <span
-                            ><p class="mb-1" style="font-size: 14px; line-height: 1.5reml">Pastikan data yang kamu kirim kan <strong>sudah benar</strong>!</p></span
-                        >
+         
+                        <span>
+                            <p class="mb-1" style="font-size: 14px; line-height: 1.5reml;;">Total Yang Harus Kamu <strong>Bayar:</strong></p>
+                        </span>
+                        <p class="my-3" style="font-size: 30px; line-height: 1.5rem;color: #108ee9;font-weight: bold" id="hargco"></p>
+                        
+                        <p class="mb-1" style="font-size: 14px; line-height: 1.5rem;text-align: center;">Segera lakukan pembayaran paling lambat <strong>1x12 jam</strong>.</p>
+                        <p class="mb-1" style="font-size: 14px; line-height: 1.5rem; text-align: center;;">Pastikan kembali <strong>nominal pembayaran</strong> sesuai dengan pemesanan yang anda lakukan.</p>
+
+                    
 
                         <h2 style="color: #108ee9">DANA:</h2>
-                        <div class="col-11 py-2 mb-3 text-center" style="font-size: 25px; line-height: 1.5rem; border: solid 1px #ccc; border-radius: 5px; line-height: 1.5rem"><p class="m-0" style="color: #108ee9">08112312311</p></div>
-                        <span
-                            ><p class="mb-1" style="font-size: 14px; line-height: 1.5rem">Segera lakukan pembayaran paling lambat <strong>1x12 jam</strong>.</p></span
-                        >
-                        <span
-                            ><p class="mb-1" style="font-size: 14px; line-height: 1.5rem">Kirim Bukti pembayaran Ke WA <strong>+62 822-1700-7025</strong>:</p></span
-                        >
+                        
+                        <div class="col-11 py-2 mb-3 text-center" style="font-size: 25px; line-height: 1.5rem; border: solid 1px #ccc; border-radius: 5px; line-height: 1.5rem"><p class="m-0" style="color: #108ee9">0852 7606 8005</p>
+                        <p class="m-0" style="font-size: 14px;">a/n. AHMAD RYDO SIAHAAN</p></div>
+                        <span>
+                            <p class="mb-1" style="font-size: 14px; line-height: 1.5rem">Kirim Bukti pembayaran Ke WA <strong>+62 822-1700-7025</strong>:</p>
+                        </span>
+             
                     </div>
                     <div class="just-pay-1fbsenh" id="chag2">
                         <button class="just-pay-1hy3qdb  datdel">Selesai</button>
@@ -85,7 +92,7 @@
                         <button class="just-pay-1hy3qdb datdel">Ubah Data</button>
                         <form name="cotop" class="just-pay-1hy3qdb">
                             <div class="conovis"></div>
-                            <button type="submit" class="just-pay-1hy3qdb">Konfirmasi</button>
+                            <button type="submit" style="background-color: #181818;color:#fff;font-weight:bold;border:none">Konfirmasi</button>
                         </form>
                     </div>
                 </div>
