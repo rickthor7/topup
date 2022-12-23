@@ -71,7 +71,7 @@ h4 {
 .just-pay-n5qlg6 {
     display: flex;
     width: 100;
-    background-color: #f2ff00;
+    background-color: #181818;
     color: #ffffff;
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
@@ -203,21 +203,21 @@ h4 {
     padding-inline-start:1rem;
     -webkit-padding-end: 1rem;
     padding-inline-end: 1rem;
-    background:#f2ff00;
-    color: #181818;
+    background:#181818;
+    color: #ffffff;
     -webkit-margin-start: 1rem;
     margin-inline-start: 1rem;
     -webkit-margin-end: 1rem;
     margin-inline-end: 1rem;
 }
 .btn-outline-primary {
-    color: #f2ff00;
+    color: #212529;
     border-color: #fff;
     box-shadow: 0 0 10px #ddd !important;
     background-color:#fff;
 }
 .btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active {
-    color: #f2ff00;
+    color: #212529;
     background-color: #fff;
     border-color: #212529;
 }
@@ -226,10 +226,10 @@ h4 {
 }
 .btn-check:hover+.btn-outline-primary {
     background-color: white!important;
-    color:#f2ff00;
+    color:#212529;
     border: solid 1px #212529;
 }
-.btn-check:active+#f2ff00.btn-outline-primary > div > .just-pay-13e7uab, .btn-check:checked+.btn-outline-primary > div > .just-pay-13e7uab, .btn-outline-primary.active > div > .just-pay-13e7uab, .btn-outline-primary.dropdown-toggle.show > div > .just-pay-13e7uab, .btn-outline-primary:active > div > .just-pay-13e7uab {
+.btn-check:active+.btn-outline-primary > div > .just-pay-13e7uab, .btn-check:checked+.btn-outline-primary > div > .just-pay-13e7uab, .btn-outline-primary.active > div > .just-pay-13e7uab, .btn-outline-primary.dropdown-toggle.show > div > .just-pay-13e7uab, .btn-outline-primary:active > div > .just-pay-13e7uab {
     position: absolute;
     display: block;
     top: -25px;
@@ -237,7 +237,7 @@ h4 {
     transform: rotate(45deg);
     width: 20px;
     height: 52px;
-    background-color: #f2ff00;
+    background-color: #212529;
 }
 .just-pay-13e7uab::before {
     content: "";
@@ -279,4 +279,3 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
-
